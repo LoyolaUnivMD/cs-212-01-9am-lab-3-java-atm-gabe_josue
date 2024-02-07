@@ -1,1 +1,32 @@
-
+1. Greet the user and create a class for atm containing.
+2. in the class atm create variable such as balance, name, totalwithdraw, and totaldeposit.
+3. create methods such as the first one being deposit.
+4. If the user's input is not equal to deposit,balance,withdraw, or leave:
+  I. Output to the user that their input is invalid and to try again.
+5. If the user chooses deposit:
+  I. Take the balance and increment the user's balance by their input amount and increment the deposit based on their input
+  II. If the user's input is not a number:
+      1. Output to the user that their input is not a number and to try again.
+  III. If the balance is less than 0:
+    1. Output to the user that it is an invalid input and they should try again.
+6. create the method for withdraw, Otherwise if the user chooses withdraw:
+  I. Reduce the balance by the amount they want.
+ II. If the user's input is not a number:
+      1. Output to the user that their input is not a number and to try again.
+  II. If the balance would be less than 0:
+      1. Output to the user that there aren't sufficent funds.
+  III. If the user's input is less than 0:
+      1. Output to the user that their input is invalid and to try again.
+  IV. increment the value of totalwithdraw by the their input value.
+7. Create the method for check balance, Otherwise if the user chooses check balance:
+  I. Output to the user their balance.
+  II. If the user's input is not a number:
+      1. Output to the user that their input is not a number and to try again.
+8. Create the method for the user wanting to exit the program, Otherwise if user chooses to leave:
+  I. Output to the user if they would like their recipt printed or emailed
+  II. Output to the user of their total amount deposited/withdrawn and a thank you message. 
+  III. If user selects printed:
+      1. Output to the user to take their receipt
+  IIII. If the user selects email:
+      1. Output to the user to check their email for the receipt 
+      
