@@ -1,1 +1,19 @@
-
+1. Greet the user and create a class for atm.
+2. in the class atm, create variable such as balance, name, totalwithdraw, and totaldeposit.
+3. create the method fodeposit, If the user chooses deposit:
+  I. Take the balance and increment the user's balance by their input amount and increment the deposit based on their input.
+4. create the method for withdraw, Otherwise if the user chooses withdraw:
+  I. Reduce the balance by the amount they want.
+  II. If the balance would be less than 0:
+      1. Output to the user that there aren't sufficent funds.
+  III. increment the value of totalwithdraw by the their input value.
+5. Create the method for check balance, Otherwise if the user chooses check balance:
+  I. Output to the user their balance.
+6. Create the method for the user wanting to exit the program, Otherwise if user chooses to leave:
+  I. Output to the user if they would like their recipt printed or emailed.
+  II. Output to the user of their total amount deposited/withdrawn and a thank you message. 
+  III. If user selects printed:
+      1. Output to the user to take their receipt
+  IIII. If the user selects email:
+      1. Output to the user to check their email for the receipt.
+      
